@@ -52,7 +52,7 @@ git clone https://github.com/Shabbirsyed05/Deploy-Npm-using-aws.git
 ```
 2. Setup the following environment variables - `(.env)` file
 ```
-DOMAIN= ""
+DOMAIN= "http://localhost:3000"
 PORT=3000
 STATIC_DIR="./client"
 
@@ -68,5 +68,5 @@ npm run start
 ```
 
 > NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port (3000)
-
+> EC2_public_ip:3000 open in chrome. It will open
 ### Project is deployed on AWS 🎉
